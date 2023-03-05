@@ -1,7 +1,7 @@
 # website-email-scraper
 Web Scraper for Finding Email Addresses
 
-This Python script uses the requests and BeautifulSoup libraries to scrape a website for email addresses that contain a specified search string. The script recursively searches all links on a page and writes any email addresses found to a file named emails.txt.
+This Python script uses the requests and BeautifulSoup libraries to scrape a website for email addresses and urls in it that contain a specified search string. The script recursively searches all links on a page and writes any email addresses found to a file named emails.txt.
 Usage
 
 To use this script, run the following command in a terminal window:
