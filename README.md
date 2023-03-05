@@ -18,11 +18,11 @@ This script requires the following libraries to be installed:
 
 You can install them using pip:
 
-pip install requests beautifulsoup4
+    pip install requests beautifulsoup4
 
 Usage:
 
-python website-email-scraper.py
+    python website-email-scraper.py
 
-Enter the Base URL: example.com <--- Your Base URL
-Enter the search string for url: example <--- Your Text Included In Base URL
+    Enter the Base URL: example.com <--- Your Base URL
+    Enter the search string for url: example <--- Your Text Included In Base URL
