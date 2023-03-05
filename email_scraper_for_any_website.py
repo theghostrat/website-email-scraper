@@ -20,7 +20,7 @@ def find_emails(url, search_string, visited_urls=set()):
       # print the email addresses found on this page
       print(f"Email addresses found on {url}:")
       for email in emails:
-        with open("scre.txt", "a") as f:
+        with open("emails.txt", "a") as f:
           f.write(email)
           f.write('\n')
           print(email)
